@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-08T00:00:00Z",
+  "title": "Design System: Helena Braz Photography",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Newsprint Paper",
+        "canonical": "oklch(0.951 0.006 90)",
+        "tonalRamp": ["oklch(0.15 0.006 90)", "oklch(0.26 0.006 90)", "oklch(0.37 0.006 90)", "oklch(0.48 0.006 90)", "oklch(0.60 0.006 90)", "oklch(0.73 0.006 90)", "oklch(0.86 0.006 90)", "oklch(0.96 0.006 90)"]
+      },
+      "paper-sink": {
+        "role": "neutral",
+        "displayName": "Paper Sink",
+        "canonical": "oklch(0.918 0.006 90)",
+        "tonalRamp": ["oklch(0.15 0.006 90)", "oklch(0.26 0.006 90)", "oklch(0.37 0.006 90)", "oklch(0.48 0.006 90)", "oklch(0.60 0.006 90)", "oklch(0.72 0.006 90)", "oklch(0.83 0.006 90)", "oklch(0.93 0.006 90)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink (Near-Black)",
+        "canonical": "oklch(0.185 0.006 290)",
+        "tonalRamp": ["oklch(0.16 0.006 290)", "oklch(0.27 0.006 290)", "oklch(0.38 0.006 290)", "oklch(0.49 0.006 290)", "oklch(0.61 0.006 290)", "oklch(0.73 0.006 290)", "oklch(0.85 0.006 290)", "oklch(0.95 0.006 290)"]
+      },
+      "ink-dim": {
+        "role": "neutral",
+        "displayName": "Warm Ink Dim",
+        "canonical": "oklch(0.435 0.017 85)",
+        "tonalRamp": ["oklch(0.16 0.017 85)", "oklch(0.27 0.018 85)", "oklch(0.38 0.019 85)", "oklch(0.49 0.019 85)", "oklch(0.61 0.017 85)", "oklch(0.73 0.014 85)", "oklch(0.85 0.010 85)", "oklch(0.95 0.006 85)"]
+      },
+      "plate": {
+        "role": "primary",
+        "displayName": "Plate Blue",
+        "canonical": "oklch(0.245 0.061 262)",
+        "tonalRamp": ["oklch(0.15 0.050 262)", "oklch(0.24 0.061 262)", "oklch(0.34 0.072 262)", "oklch(0.45 0.080 262)", "oklch(0.56 0.081 262)", "oklch(0.68 0.068 262)", "oklch(0.81 0.048 262)", "oklch(0.93 0.020 262)"]
+      },
+      "plate-deep": {
+        "role": "primary",
+        "displayName": "Plate Blue Deep",
+        "canonical": "oklch(0.185 0.062 266)",
+        "tonalRamp": ["oklch(0.13 0.055 266)", "oklch(0.21 0.064 266)", "oklch(0.31 0.074 266)", "oklch(0.42 0.082 266)", "oklch(0.54 0.082 266)", "oklch(0.66 0.070 266)", "oklch(0.80 0.048 266)", "oklch(0.92 0.020 266)"]
+      },
+      "on-plate": {
+        "role": "neutral",
+        "displayName": "On-Plate Off-White",
+        "canonical": "oklch(0.925 0.008 88)",
+        "tonalRamp": ["oklch(0.16 0.008 88)", "oklch(0.27 0.008 88)", "oklch(0.38 0.008 88)", "oklch(0.49 0.008 88)", "oklch(0.61 0.008 88)", "oklch(0.73 0.008 88)", "oklch(0.85 0.008 88)", "oklch(0.94 0.008 88)"]
+      },
+      "on-plate-dim": {
+        "role": "neutral",
+        "displayName": "On-Plate Blue-Gray Dim",
+        "canonical": "oklch(0.665 0.036 258)",
+        "tonalRamp": ["oklch(0.16 0.030 258)", "oklch(0.27 0.034 258)", "oklch(0.38 0.038 258)", "oklch(0.49 0.040 258)", "oklch(0.61 0.038 258)", "oklch(0.73 0.032 258)", "oklch(0.85 0.022 258)", "oklch(0.95 0.010 258)"]
+      },
+      "acid": {
+        "role": "secondary",
+        "displayName": "Acid Ink",
+        "canonical": "oklch(0.925 0.183 113)",
+        "tonalRamp": ["oklch(0.20 0.060 113)", "oklch(0.32 0.090 113)", "oklch(0.44 0.120 113)", "oklch(0.56 0.150 113)", "oklch(0.68 0.172 113)", "oklch(0.79 0.185 113)", "oklch(0.88 0.185 113)", "oklch(0.94 0.150 113)"]
+      },
+      "acid-deep": {
+        "role": "secondary",
+        "displayName": "Acid Ink Deep",
+        "canonical": "oklch(0.865 0.201 119)",
+        "tonalRamp": ["oklch(0.20 0.070 119)", "oklch(0.32 0.100 119)", "oklch(0.44 0.135 119)", "oklch(0.56 0.165 119)", "oklch(0.67 0.190 119)", "oklch(0.78 0.201 119)", "oklch(0.87 0.190 119)", "oklch(0.93 0.150 119)"]
+      },
+      "field-error": {
+        "role": "tertiary",
+        "displayName": "Field Error Coral",
+        "canonical": "oklch(0.755 0.132 38)",
+        "tonalRamp": ["oklch(0.20 0.060 38)", "oklch(0.32 0.090 38)", "oklch(0.44 0.115 38)", "oklch(0.55 0.132 38)", "oklch(0.66 0.135 38)", "oklch(0.76 0.132 38)", "oklch(0.86 0.090 38)", "oklch(0.94 0.045 38)"]
+      },
+      "hairline-paper": {
+        "role": "neutral",
+        "displayName": "Hairline on Paper",
+        "canonical": "rgba(23, 23, 26, 0.18)",
+        "tonalRamp": ["rgba(23,23,26,0.08)", "rgba(23,23,26,0.14)", "rgba(23,23,26,0.18)", "rgba(23,23,26,0.24)", "rgba(23,23,26,0.32)", "rgba(23,23,26,0.42)", "rgba(23,23,26,0.60)", "rgba(23,23,26,0.85)"]
+      },
+      "hairline-plate": {
+        "role": "neutral",
+        "displayName": "Hairline on Plate",
+        "canonical": "rgba(233, 230, 220, 0.20)",
+        "tonalRamp": ["rgba(233,230,220,0.08)", "rgba(233,230,220,0.14)", "rgba(233,230,220,0.20)", "rgba(233,230,220,0.28)", "rgba(233,230,220,0.40)", "rgba(233,230,220,0.55)", "rgba(233,230,220,0.75)", "rgba(233,230,220,0.95)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Feature opener titles and the closing Contato headline. Archivo 900 at expanded width, set tight." },
+      "headline": { "displayName": "Headline", "purpose": "Plate section heads, FAQ head, feature intro statements." },
+      "masthead": { "displayName": "Masthead", "purpose": "The 'Helena Braz' nameplate in the first opener and the running-header wordmark. Uppercase, tracked." },
+      "dek": { "displayName": "Dek", "purpose": "The single italic Piazzolla line under each opener title; the Estudio lead-in." },
+      "body": { "displayName": "Body / Essay", "purpose": "Running essay copy, max 64ch. Its .lead first-letter is an Archivo drop cap." },
+      "caption": { "displayName": "Caption", "purpose": "Figure captions and pull-quotes, Piazzolla italic in ink-dim, optional Archivo eyebrow label." },
+      "label": { "displayName": "Label", "purpose": "Field labels, dl terms, credits, footer nav, figure eyebrow labels. Archivo 600 uppercase, tracked." },
+      "folio": { "displayName": "Folio", "purpose": "Every wayfinding numeral — rail digits, inline '01 / 07' counters, portrait tag. Tabular, expanded." }
+    },
+    "shadows": [],
+    "overlays": [
+      { "name": "opener-tint", "value": "rgba(14, 23, 48, 0.30)", "purpose": "The single flat tonal fill in the build — layered over opener photographs so the caption block reads. A flat fill, never a gradient scrim." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 0.84, 0.32, 1)", "purpose": "The only easing curve. All state transitions and the authored motion use it." },
+      { "name": "focus-rack-filter", "value": "filter 1s, transform 1.2s", "purpose": "The signature motion: opener images resolve from blur(7px) saturate(.82) scale(1.05) to sharp on entry." },
+      { "name": "gallery-reveal", "value": "clip-path 0.8s, opacity 0.7s, transform 0.7s", "purpose": "Gallery figures wipe open from clip-path inset(0 0 12% 0) with a 24px rise." },
+      { "name": "state-fast", "value": "0.2s", "purpose": "Button background, input border, small hover shifts." },
+      { "name": "state-header", "value": "0.35s", "purpose": "Running header transparent-to-solid transition." },
+      { "name": "accordion", "value": "grid-template-rows 0.35s", "purpose": "FAQ answer panel open/close via 0fr to 1fr." }
+    ],
+    "breakpoints": [
+      { "name": "xs", "value": "420px" },
+      { "name": "sm", "value": "560px" },
+      { "name": "gallery", "value": "720px" },
+      { "name": "md", "value": "900px" },
+      { "name": "rail", "value": "1180px" }
+    ],
+    "layout": {
+      "container": "1640px",
+      "gutter": "clamp(1.15rem, 4.2vw, 4rem)",
+      "measure": "64ch",
+      "railWidth": "4.25rem",
+      "galleryGrid": "repeat(12, 1fr)"
+    }
+  },
+  "components": [
+    {
+      "name": "WhatsApp / Contact Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one acid-ink action. Every conversion touchpoint on the page. Square, uppercase Archivo, filled WhatsApp glyph.",
+      "html": "<a class=\"ds-wa\" href=\"#\"><svg class=\"ds-wa__icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3a9 9 0 0 0-7.74 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3Zm0 1.7a7.3 7.3 0 0 1 6.2 11.2 7.3 7.3 0 0 1-9 2.7l-.32-.15-2.67.7.71-2.6-.17-.33A7.3 7.3 0 0 1 12 4.7Zm-3.1 3.2c-.15 0-.4.06-.6.28-.2.22-.78.76-.78 1.85 0 1.1.8 2.15.9 2.3.12.15 1.56 2.5 3.87 3.4 1.92.76 2.31.6 2.73.57.42-.04 1.36-.56 1.55-1.1.2-.53.2-1 .14-1.09-.06-.1-.22-.15-.46-.27-.24-.12-1.4-.7-1.62-.77-.22-.08-.38-.12-.53.12-.16.24-.6.77-.74.93-.14.16-.27.18-.5.06-.24-.12-1-.37-1.9-1.18-.7-.63-1.18-1.4-1.32-1.64-.13-.24-.01-.37.1-.49.12-.11.25-.29.37-.43.12-.15.16-.25.24-.41.08-.16.04-.31-.02-.43-.06-.12-.53-1.3-.73-1.77-.19-.46-.38-.4-.53-.4Z\"/></svg><span>WhatsApp</span></a>",
+      "css": ".ds-wa { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--acid, #dcf250); color: var(--ink, #17171a); font-family: var(--sans, 'Archivo', sans-serif); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; padding: 0.72rem 1.05rem; border: 0; border-radius: 0; transition: background 0.2s cubic-bezier(0.16,0.84,0.32,1), transform 0.2s cubic-bezier(0.16,0.84,0.32,1); } .ds-wa__icon { width: 1.05rem; height: 1.05rem; fill: currentColor; } .ds-wa:hover { background: var(--acid-deep, #c7e02c); } .ds-wa:active { transform: translateY(1px); } .ds-wa:focus-visible { outline: 2px solid var(--acid, #dcf250); outline-offset: 3px; }"
+    },
+    {
+      "name": "WhatsApp Button — Large",
+      "kind": "button",
+      "refersTo": "button-primary-lg",
+      "description": "Opener and Contato size of the acid action. Same treatment, larger padding and type.",
+      "html": "<a class=\"ds-wa-lg\" href=\"#\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3a9 9 0 0 0-7.74 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3Zm-3.1 4.9c-.15 0-.4.06-.6.28-.2.22-.78.76-.78 1.85 0 1.1.8 2.15.9 2.3.12.15 1.56 2.5 3.87 3.4 1.92.76 2.31.6 2.73.57.42-.04 1.36-.56 1.55-1.1.2-.53.2-1 .14-1.09-.06-.1-.22-.15-.46-.27-.24-.12-1.4-.7-1.62-.77-.22-.08-.38-.12-.53.12-.16.24-.6.77-.74.93-.14.16-.27.18-.5.06-.24-.12-1-.37-1.9-1.18-.7-.63-1.18-1.4-1.32-1.64-.13-.24-.01-.37.1-.49.34-.42.68-.84.79-1.07.08-.16.04-.31-.02-.43-.06-.12-.53-1.3-.73-1.77-.19-.46-.38-.4-.53-.4Z\"/></svg><span>Falar no WhatsApp</span></a>",
+      "css": ".ds-wa-lg { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--acid, #dcf250); color: var(--ink, #17171a); font-family: var(--sans, 'Archivo', sans-serif); font-weight: 700; font-size: 0.92rem; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; padding: 1rem 1.5rem; border: 0; border-radius: 0; transition: background 0.2s cubic-bezier(0.16,0.84,0.32,1), transform 0.2s cubic-bezier(0.16,0.84,0.32,1); } .ds-wa-lg svg { width: 1.1rem; height: 1.1rem; fill: currentColor; } .ds-wa-lg:hover { background: var(--acid-deep, #c7e02c); } .ds-wa-lg:active { transform: translateY(1px); } .ds-wa-lg:focus-visible { outline: 2px solid var(--acid, #dcf250); outline-offset: 3px; }"
+    },
+    {
+      "name": "Form Submit Button",
+      "kind": "button",
+      "refersTo": "button-submit",
+      "description": "The inverse button for form context — warm off-white on plate, never acid. Acid is reserved for the WhatsApp fallback the form offers.",
+      "html": "<button class=\"ds-form-submit\" type=\"submit\">Enviar mensagem</button>",
+      "css": ".ds-form-submit { justify-self: start; font-family: var(--sans, 'Archivo', sans-serif); font-weight: 700; font-size: 0.82rem; letter-spacing: 0.12em; text-transform: uppercase; background: var(--on-plate, #e9e6dc); color: var(--plate-deep, #0e1730); padding: 1rem 1.8rem; border: 0; border-radius: 0; cursor: pointer; transition: opacity 0.2s cubic-bezier(0.16,0.84,0.32,1), transform 0.15s cubic-bezier(0.16,0.84,0.32,1); } .ds-form-submit:hover { opacity: 0.88; } .ds-form-submit:active { transform: translateY(1px); } .ds-form-submit:focus-visible { outline: 2px solid var(--on-plate, #e9e6dc); outline-offset: 3px; } .ds-form-submit[disabled] { opacity: 0.5; cursor: progress; }"
+    },
+    {
+      "name": "Text Field (on plate)",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Borderless ruled line, not a box. Label is a tracked uppercase Archivo eyebrow above. Bottom hairline thickens and brightens on focus; turns coral on error.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-f-nome\">Nome</label><input type=\"text\" id=\"ds-f-nome\" name=\"nome\" /><span class=\"ds-field__err\">Como voce se chama?</span></div>",
+      "css": ".ds-field { display: grid; gap: 0.5rem; } .ds-field label { font-family: var(--sans, 'Archivo', sans-serif); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--on-plate-dim, #94a1ba); } .ds-field input { font-family: var(--serif, 'Piazzolla', serif); font-size: 1rem; color: var(--on-plate, #e9e6dc); background: transparent; caret-color: var(--on-plate, #e9e6dc); border: 0; border-bottom: 1px solid var(--line-plate, rgba(233,230,220,0.20)); padding: 0.65rem 0; border-radius: 0; transition: border-color 0.2s cubic-bezier(0.16,0.84,0.32,1); } .ds-field input:focus { outline: none; border-bottom-color: var(--on-plate, #e9e6dc); border-bottom-width: 2px; } .ds-field__err { font-family: var(--sans, 'Archivo', sans-serif); font-size: 0.72rem; letter-spacing: 0.04em; color: #ff8f6b; min-height: 1em; } .ds-field[data-invalid='true'] input { border-bottom-color: #ff8f6b; }"
+    },
+    {
+      "name": "FAQ Item",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Hairline-ruled accordion row on paper. CSS-drawn plus/minus; answer panel animates via grid-template-rows 0fr to 1fr.",
+      "html": "<div class=\"ds-qa\"><button class=\"ds-qa__q\" type=\"button\" aria-expanded=\"false\">Voces atendem fora de Porto Alegre?<span class=\"ds-qa__sign\" aria-hidden=\"true\"></span></button><div class=\"ds-qa__a\"><div><p>Sim. Serra Gaucha sem custo de deslocamento; outros destinos com logistica combinada a parte.</p></div></div></div>",
+      "css": ".ds-qa { border-top: 1px solid var(--line, rgba(23,23,26,0.18)); } .ds-qa:last-child { border-bottom: 1px solid var(--line, rgba(23,23,26,0.18)); } .ds-qa__q { width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; padding: 1.35rem 0; background: none; border: 0; cursor: pointer; font-family: var(--sans, 'Archivo', sans-serif); font-weight: 700; font-size: 1.15rem; letter-spacing: -0.01em; color: var(--ink, #17171a); } .ds-qa__sign { position: relative; width: 1rem; height: 1rem; flex: none; } .ds-qa__sign::before, .ds-qa__sign::after { content: ''; position: absolute; background: var(--ink, #17171a); inset: 0; margin: auto; } .ds-qa__sign::before { width: 100%; height: 2px; } .ds-qa__sign::after { width: 2px; height: 100%; transition: transform 0.3s cubic-bezier(0.16,0.84,0.32,1); } .ds-qa__q[aria-expanded='true'] .ds-qa__sign::after { transform: scaleY(0); } .ds-qa__a { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.35s cubic-bezier(0.16,0.84,0.32,1); } .ds-qa__a > div { overflow: hidden; } .ds-qa__q[aria-expanded='true'] + .ds-qa__a { grid-template-rows: 1fr; } .ds-qa__a p { max-width: 64ch; padding-bottom: 1.5rem; color: var(--ink-dim, #575249); font-family: var(--serif, 'Piazzolla', serif); } .ds-qa__q:focus-visible { outline: 2px solid var(--ink, #17171a); outline-offset: 3px; }"
+    },
+    {
+      "name": "Next-Feature Link",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "The section-end forward affordance. Large expanded Archivo with an italic Piazzolla sub-label and an arrow that slides right on hover.",
+      "html": "<a class=\"ds-next-link\" href=\"#\"><span>Ensaios<small>Pre-wedding, casal, gestante e retrato</small></span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-next-link { font-family: var(--sans, 'Archivo', sans-serif); font-weight: 800; font-stretch: expanded; font-size: 2rem; text-decoration: none; color: var(--ink, #17171a); display: inline-flex; align-items: center; gap: 0.6rem; } .ds-next-link small { display: block; font-family: var(--serif, 'Piazzolla', serif); font-style: italic; font-weight: 400; font-stretch: normal; font-size: 0.82rem; color: var(--ink-dim, #575249); letter-spacing: 0; } .ds-next-link svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; transition: transform 0.25s cubic-bezier(0.16,0.84,0.32,1); } .ds-next-link:hover svg { transform: translateX(0.35rem); } .ds-next-link:focus-visible { outline: 2px solid var(--ink, #17171a); outline-offset: 3px; }"
+    },
+    {
+      "name": "Left Index Rail",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Fixed desktop wayfinding rail (>=1180px). Tabular Archivo digits; the current section brightens and grows a 2px edge tick.",
+      "html": "<nav class=\"ds-rail\" aria-label=\"Indice das secoes\"><a href=\"#\" aria-current=\"true\">01</a><a href=\"#\">02</a><a href=\"#\">03</a><a href=\"#\">04</a><a href=\"#\">05</a><a href=\"#\">06</a><a href=\"#\">07</a><span class=\"ds-rail__tip\">Portfolio</span></nav>",
+      "css": ".ds-rail { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.1rem; width: 4.25rem; padding: 2rem 0; border-right: 1px solid var(--line, rgba(23,23,26,0.18)); } .ds-rail a { display: grid; place-items: center; width: 100%; padding: 0.55rem 0; text-decoration: none; color: var(--ink-dim, #575249); font-family: var(--sans, 'Archivo', sans-serif); font-weight: 700; font-variant-numeric: tabular-nums; font-size: 0.8rem; position: relative; transition: color 0.3s cubic-bezier(0.16,0.84,0.32,1); } .ds-rail a::after { content: ''; position: absolute; right: -1px; top: 50%; height: 2.4rem; width: 2px; background: var(--ink, #17171a); transform: translateY(-50%) scaleY(0); transition: transform 0.3s cubic-bezier(0.16,0.84,0.32,1); } .ds-rail a:hover, .ds-rail a[aria-current='true'] { color: var(--ink, #17171a); } .ds-rail a[aria-current='true']::after { transform: translateY(-50%) scaleY(1); } .ds-rail__tip { writing-mode: vertical-rl; margin-top: 1.4rem; font-family: var(--sans, 'Archivo', sans-serif); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase; color: var(--ink-dim, #575249); }"
+    },
+    {
+      "name": "Gallery Figure with Caption",
+      "kind": "card",
+      "refersTo": null,
+      "description": "Editorial gallery unit. Edge-to-edge image with an explicit aspect ratio; italic Piazzolla caption below with an optional Archivo eyebrow label.",
+      "html": "<figure class=\"ds-figure\"><img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='4'/%3E\" alt=\"\" /><figcaption><b>Serra Gaucha</b>A entrada da noiva: o instante em que ninguem consegue olhar para outro lugar.</figcaption></figure>",
+      "css": ".ds-figure { margin: 0; position: relative; } .ds-figure img { width: 100%; height: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; background: var(--paper-sink, #e7e5dd); } .ds-figure figcaption { font-family: var(--serif, 'Piazzolla', serif); font-style: italic; font-size: 0.92rem; line-height: 1.45; color: var(--ink-dim, #575249); margin-top: 0.7rem; max-width: 40ch; } .ds-figure figcaption b { font-style: normal; font-family: var(--sans, 'Archivo', sans-serif); font-weight: 600; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink, #17171a); display: block; margin-bottom: 0.25rem; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Printed Photo Essay",
+    "overview": "This portfolio is set like a printed photography journal, not a website that happens to show photos. The whole page is a sequence of numbered features — Casamentos, Ensaios, Eventos — and each one opens the way a magazine feature opens: on a single full-bleed photograph that has to carry the argument by itself, with a solid caption block dropped into one corner. It deliberately refuses the airy, evenly-spaced masonry grid that most photographer templates default to. Where a masonry grid says 'here is everything, equally,' this says 'here is a story, in order.'\n\nThe materials are two flat inks on warm stock. Full-width sections alternate between warm newsprint paper (#f2f1ec) and deep plate-blue ink (#16233f) — near-black type on the paper, warm off-white type on the plates. There are no gradients and no drop shadows anywhere. The only tonal overlay in the build is a single flat blue tint sitting on the opener photographs so the caption block stays legible. Depth is never faked with light; it only appears where a photograph physically crosses or bleeds past the editorial grid. One acid ink (#dcf250) exists in the system and it is spent entirely on the WhatsApp / contact action — it appears nowhere else, and that scarcity is what makes it read as 'the thing to press.'\n\nType is a two-voice pairing. Archivo, pushed to its expanded width axis and its heaviest weight, does every masthead, feature title, section head and folio number — it is loud, wide, and structural. Piazzolla, a warm optical serif almost always set in italic, does every dek, caption, pull-quote and body essay — it is the reading voice, and it never competes with Archivo for the headline job. The result feels editorial and confident rather than precious: this is a working photographer's book, printed with intent.",
+    "keyCharacteristics": [
+      "Full-width sections alternate warm-paper and plate-blue; type tone flips with the ground",
+      "Every feature opens on a 100svh photograph with a solid plate-blue caption block",
+      "One acid accent, reserved exclusively for the contact action",
+      "Flat unmixed ink: zero gradients, zero drop shadows",
+      "Archivo expanded-and-heavy for structure; Piazzolla italic for every reading voice",
+      "Numbered wayfinding throughout — a fixed left index rail (01-07), inline folios, section-end counters",
+      "Square corners everywhere; radius is 0",
+      "One authored motion (the focus rack) plus a single gallery reveal, fully disabled under reduced-motion"
+    ],
+    "rules": [
+      { "name": "The Reserved Acid Rule", "body": "#dcf250 and its hover #c7e02c touch only the WhatsApp / contact action — the button, its focus ring, and the WhatsApp fallback link's underline. It never becomes a highlight, a hover tint, a bullet, or a decorative accent anywhere else. Its rarity is the entire reason it converts. Audit test: search the built CSS for --acid — every hit must resolve to a WhatsApp/contact element.", "section": "colors" },
+      { "name": "The Paper/Plate Alternation Rule", "body": "Full-width sections are either warm paper or plate-blue, never a third surface, and the type palette flips wholesale with the ground (ink / ink-dim on paper, on-plate / on-plate-dim on plate). Adjacent blue zones separate by dropping to plate-deep, not by adding a border or shadow.", "section": "colors" },
+      { "name": "The Warm-Neutral Rule", "body": "No neutral is a true gray. ink-dim is warm and tinted; on-plate-dim is pulled from the plate's blue. If a secondary tone reads as neutral gray, it is wrong.", "section": "colors" },
+      { "name": "The Two-Voice Rule", "body": "Archivo does structure (mastheads, titles, section heads, folios, nav, buttons, step numerals). Piazzolla does reading (deks, essay, captions, quotes, form inputs, status text). A serif headline or a grotesque body paragraph is a system violation.", "section": "typography" },
+      { "name": "The Expanded-Display Rule", "body": "Every Archivo instance at title or masthead scale carries font-stretch: expanded and weight 800-900. Archivo is never set at normal width and normal weight for display; the width is the identity.", "section": "typography" },
+      { "name": "The Italic-Dek Rule", "body": "Deks, pull-quotes, the Contato lede, the masthead's running descriptor and form status messages are set in Piazzolla italic. Italic is the system's secondary-voice signal, not emphasis within a sentence.", "section": "typography" },
+      { "name": "The Numbered Wayfinding Rule", "body": "The reader always knows which of the seven features they are in. It is carried three ways at once: the fixed left index rail (01-07, current item marked), an inline folio in each opener and section head ('01 / 07'), and a section-end counter pointing at the next feature ('02 / 07'). This is a deliberate photo-essay device, not decorative section numbering — the numerals are functional and consistent.", "section": "layout" },
+      { "name": "The Flat Ink Rule", "body": "No gradient, no drop shadow, no glow, no inset highlight — anywhere, in any state. A surface that needs to feel separated changes color or gains a 1px hairline. If depth is wanted, a photograph crosses the grid.", "section": "elevation" },
+      { "name": "The Zero Radius Rule", "body": "Every corner in the system is square. If a component has a visible border-radius, it is off-system.", "section": "shapes" },
+      { "name": "The One Authored Motion Rule", "body": "The system has exactly one signature motion: the focus rack — opener photographs load blurred and slightly scaled (blur(7px) saturate(.82) scale(1.05)) and resolve to sharp over ~1-1.2s when they enter view. Supporting it: the gallery clip-path reveal, the bounded hero parallax drift, and small state transitions. Everything is gated behind prefers-reduced-motion — under reduce, all reveals, racks and parallax are neutralized to their resting state.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do alternate full-width sections between warm paper (#f2f1ec) and plate-blue (#16233f), flipping the entire type palette with the ground.",
+      "Do open every new feature on a single full-bleed 100svh photograph with a solid plate caption block; vary the block's corner.",
+      "Do keep a WhatsApp / contact action within one screen at every scroll position — it is the conversion target.",
+      "Do set all structural type in Archivo at font-stretch: expanded, weight 800-900; all reading type in Piazzolla, deks and quotes in italic.",
+      "Do number the features — rail, inline folio, and a section-end '0X / 07' counter pointing forward.",
+      "Do let photographs break the grid (.bleed, varied aspect ratios) when you want depth or emphasis.",
+      "Do keep every corner square (border-radius: 0) and every divider a 1px hairline.",
+      "Do gate every motion behind prefers-reduced-motion with a defined resting state."
+    ],
+    "donts": [
+      "Don't use the acid ink (#dcf250 / #c7e02c) on anything but the WhatsApp / contact action. No highlights, hovers, bullets, or accents.",
+      "Don't add a gradient, drop shadow, glow, or inset highlight — anywhere, in any state. Separate surfaces with color or a hairline.",
+      "Don't introduce a third full-width surface color; adjacent blue zones differ only by plate vs. plate-deep.",
+      "Don't set a headline in the serif or a body paragraph in the grotesque.",
+      "Don't default to an even masonry / equal-tile photo grid — the layout is a numbered sequence, not a wall.",
+      "Don't box the form inputs; they are ruled bottom-lines that thicken on focus.",
+      "Don't use an icon font or emoji — icons are inline single-stroke SVG.",
+      "Don't promote a page-specific section order (e.g. testimonials before the About/Estudio section) into a global rule; that ordering is a conversion choice for this landing surface, recorded in the direction contract's STORY block."
+    ]
+  }
+}

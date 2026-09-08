@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helena Braz — Fotografia de casamento, ensaio e evento</title>
+    <meta
+      name="description"
+      content="Helena Braz fotografa casamentos, ensaios e eventos em Porto Alegre e na Serra Gaúcha. O dia inteiro registrado sem pose forçada. Resposta no mesmo dia, chame no WhatsApp."
+    />
+    <meta property="og:title" content="Helena Braz — Fotografia de casamento, ensaio e evento" />
+    <meta property="og:description" content="O dia inteiro registrado sem pose forçada. Casamentos, ensaios e eventos em Porto Alegre e Serra Gaúcha." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/casamento-hero.jpg" />
+    <meta name="theme-color" content="#16233f" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100,400;100,500;100,600;100,700;125,700;125,800;125,900&family=Piazzolla:ital,opsz,wght@0,8..30,400;0,8..30,500;0,8..30,600;1,8..30,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--
+DIRECTION CONTRACT
+THESIS: The portfolio as a printed photo essay — three numbered features, each
+opening on one full-bleed photograph that carries the argument; refuses the
+airy masonry-grid photographer template.
+OWN-WORLD: Warm newsprint paper (#f2f1ec) and deep plate-blue ink plates
+(#16233f) alternate full-width; near-black on paper, warm off-white on plates.
+One reserved acid ink (#dcf250) touches only the WhatsApp/contact action.
+Archivo grotesque at expanded width for masthead and feature titles; Piazzolla
+serif for deks, captions, essay. Flat unmixed ink, no gradients or drop
+shadows; depth only where photographs cross the grid.
+STORY: A couple comparing photographers at night lands on one full-bleed
+wedding photo, masthead, folio 01, acid WhatsApp button. Scrolling walks
+Casamentos, Ensaios, Eventos, then — deliberately, because the surface is a
+conversion page — clients' words while the work is fresh, then the
+photographer, the process, the questions, a closing contact plate. WhatsApp
+stays one screen away.
+FIRST VIEWPORT: Full-bleed photograph; a solid plate-blue caption block
+lower-left holds masthead, feature title "Casamentos" in expanded Archivo, one
+italic dek line, folio 01 and the acid WhatsApp button; numbered index down
+the left margin.
+FORM: Photo essay / photography journal — grounded candidate 4 of 7, assigned
+by the roll; seed key c70797d0.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the
+finish review, the verdict, DESIGN.md, and every shipping raster carrying its
+provenance.
+-->
+
+    <!--
+  PENDENTES ANTES DE PUBLICAR — esta é uma landing page-modelo (spec piece).
+  NADA aqui é de um cliente real:
+  - Nome "Helena Braz", textos de bio, cidade e todos os depoimentos são
+    espaço reservado (placeholder) — substituir pelos dados reais do fotógrafo.
+  - WhatsApp (55) 51 99999-0000 / wa.me/5551999990000 é fictício — trocar.
+  - E-mail oi@helenabraz.com.br e Instagram @helenabraz.foto são fictícios.
+  - Marcadores [X] anos e [N] casamentos na seção "O Estúdio" — preencher.
+  - Formulário: action aponta para Web3Forms com chave "SUA-ACCESS-KEY-AQUI".
+    Criar conta gratuita em web3forms.com, colar a chave no atributo
+    data-access-key do <form> (js/script.js). Enquanto não houver chave, o
+    envio cai para o WhatsApp automaticamente.
+  - Imagens em assets/ são fotos de demonstração do Unsplash (licença livre,
+    sem necessidade de atribuição). Créditos abaixo. Substituir pelo portfólio
+    real do fotógrafo — os nomes de arquivo (casamento-*, ensaio-*, evento-*)
+    já mapeiam cada seção.
+      casamento-hero, casamento-02  — Leonardo Miranda / Jakob Owens
+      casamento-01 Victoria Priessnitz · casamento-03 Jeremy Wong Weddings
+      casamento-04 Samantha Gades · casamento-05 Redd Francisco
+      casamento-06 Getúlio Moraes
+      ensaio-hero Edward Cisneros · ensaio-01 Flávia Gava
+      ensaio-02 Jessica Felicio · ensaio-03 Taylor Heery
+      ensaio-04 Annika Palmari · ensaio-05 Lauren Rader · ensaio-06 Priscilla Du Preez
+      evento-hero Jordon Conner · evento-01 Pablo Heimplatz
+      evento-02 Abhimanyu Jhingan · evento-03 Dominik Mecko
+      evento-04 Jonas Jaeken · evento-05 sujan khalifa · evento-06 Kajetan Sumila
+      retrato-fotografo Nicolas Ladino Silva
+-->
+
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <nav class="index-rail" aria-label="Índice das seções">
+      <a href="#casamentos" data-spy="casamentos">01</a>
+      <a href="#ensaios" data-spy="ensaios">02</a>
+      <a href="#eventos" data-spy="eventos">03</a>
+      <a href="#estudio" data-spy="estudio">04</a>
+      <a href="#processo" data-spy="processo">05</a>
+      <a href="#perguntas" data-spy="perguntas">06</a>
+      <a href="#contato" data-spy="contato">07</a>
+      <span class="index-rail__tip">Portfólio</span>
+    </nav>
+
+    <header class="site-header" data-solid="false">
+      <div class="site-header__inner">
+        <a class="wordmark" href="#topo">
+          Helena Braz
+          <span>Casamento · Ensaio · Evento</span>
+        </a>
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="#casamentos">Casamentos</a>
+          <a href="#ensaios">Ensaios</a>
+          <a href="#eventos">Eventos</a>
+          <a href="#estudio">Estúdio</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <a
+          class="wa"
+          href="https://wa.me/5551999990000?text=Oi%2C%20Helena!%20Vim%20pelo%20site%20e%20quero%20conversar."
+          target="_blank"
+          rel="noopener"
+        >
+          <svg class="icon icon--fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa" /></svg>
+          <span class="txt">WhatsApp</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="overlay-nav">
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="overlay-nav" id="overlay-nav">
+      <ol>
+        <li><a href="#casamentos"><span class="folio">01</span> Casamentos</a></li>
+        <li><a href="#ensaios"><span class="folio">02</span> Ensaios</a></li>
+        <li><a href="#eventos"><span class="folio">03</span> Eventos</a></li>
+        <li><a href="#estudio"><span class="folio">04</span> O Estúdio</a></li>
+        <li><a href="#processo"><span class="folio">05</span> Como funciona</a></li>
+        <li><a href="#perguntas"><span class="folio">06</span> Perguntas</a></li>
+        <li><a href="#contato"><span class="folio">07</span> Contato</a></li>
+      </ol>
+    </div>
+
+    <main id="conteudo">
+      <!-- ============ 01 · CASAMENTOS (abre a página) ============ -->
+      <section class="opener" id="topo" aria-labelledby="t-casamentos">
+        <div class="opener__media">
+          <img class="rack" src="assets/casamento-hero.jpg" alt="Noivos se beijam ao entardecer, ela de vestido branco, ele de terno azul." fetchpriority="high" />
+        </div>
+        <div class="shell">
+          <div class="opener__plate">
+            <div class="masthead">
+              <p class="masthead__name">Helena Braz</p>
+              <p class="masthead__kicker">Fotografia de casamento, ensaio e evento. Porto Alegre e Serra Gaúcha.</p>
+            </div>
+            <h1 class="opener__title" id="t-casamentos">Casamentos</h1>
+            <p class="opener__dek">O dia inteiro, do café da manhã ao último abraço na pista, fotografado por quem também se emociona.</p>
+            <div class="opener__foot">
+              <span class="folio">01 / 07</span>
+              <a class="wa wa--lg" href="https://wa.me/5551999990000?text=Oi%2C%20Helena!%20Vim%20pelo%20site%20e%20quero%20falar%20sobre%20um%20casamento." target="_blank" rel="noopener">
+                <svg class="icon icon--fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa" /></svg>
+                Falar no WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-cue"><span class="rule"></span>Role para ver o ensaio</div>
+      </section>
+
+      <section class="feature shell" id="casamentos" aria-label="Portfólio de casamentos">
+        <div class="feature__intro">
+          <div>
+            <h3>Casamento não se refaz. Por isso eu chego cedo e saio tarde.</h3>
+          </div>
+          <div class="essay">
+            <p class="lead">Fotografo os intervalos: a mãe ajeitando o véu, o padrinho que chora antes dos noivos, a farra depois do bolo. Documento os dois lados do dia sem pedir que ninguém pare para posar.</p>
+            <p>No fim, você recebe entre <b>600 e 900 fotos</b> tratadas em até 30 dias, mais um filme curto do dia. Álbum impresso entra como opcional.</p>
+          </div>
+        </div>
+
+        <div class="plates">
+          <figure class="sp-7 reveal">
+            <img class="ar-32" src="assets/casamento-01.jpg" alt="Noivos abraçados diante de uma parede de madeira." loading="lazy" />
+          </figure>
+          <figure class="sp-5 cap-side pull reveal">
+            <figcaption><b>Serra Gaúcha</b>A entrada da noiva: o instante em que ninguém consegue olhar para outro lugar.</figcaption>
+          </figure>
+          <figure class="sp-6 reveal">
+            <img class="ar-45" src="assets/casamento-02.jpg" alt="Casal se beija em um campo aberto durante o pôr do sol." loading="lazy" />
+            <figcaption><b>Morro Reuter</b>Depois da cerimônia, dez minutos só dos dois.</figcaption>
+          </figure>
+          <figure class="sp-6 reveal">
+            <img class="ar-45" src="assets/casamento-03.jpg" alt="Cerimônia ao ar livre sob um caramanchão de madeira cercado de árvores." loading="lazy" />
+            <figcaption><b>Capela ao ar livre</b>Os convidados de pé antes dos votos.</figcaption>
+          </figure>
+          <figure class="bleed ar-219 reveal">
+            <img src="assets/casamento-05.jpg" alt="Cerimônia de casamento ao lado de árvores de outono, cadeiras enfileiradas." loading="lazy" />
+          </figure>
+          <figure class="sp-5 reveal">
+            <img class="ar-45" src="assets/casamento-04.jpg" alt="Buquê de flores variadas pendurado sobre uma tábua de madeira." loading="lazy" />
+            <figcaption><b>Detalhes</b>As flores, os anéis, o bilhete escrito à mão.</figcaption>
+          </figure>
+          <figure class="sp-7 reveal">
+            <img class="ar-32" src="assets/casamento-06.jpg" alt="Noivos recém-casados na beira da praia ao anoitecer." loading="lazy" />
+            <figcaption><b>Casamento na praia</b>O último abraço antes da festa começar.</figcaption>
+          </figure>
+        </div>
+
+        <div class="feature__more">
+          <a class="next-link" href="#ensaios">
+            <span>Ensaios<small>Pré-wedding, casal, gestante e retrato</small></span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow" /></svg>
+          </a>
+          <span class="folio" aria-hidden="true">02 / 07</span>
+        </div>
+      </section>
+
+      <!-- ============ 02 · ENSAIOS ============ -->
+      <section class="opener opener--right" id="ensaios" aria-labelledby="t-ensaios">
+        <div class="opener__media">
+          <img class="rack" src="assets/ensaio-hero.jpg" alt="Casal caminha de mãos dadas por uma rua arborizada." decoding="async" />
+        </div>
+        <div class="shell">
+          <div class="opener__plate">
+            <h2 class="opener__title" id="t-ensaios">Ensaios</h2>
+            <p class="opener__dek">Uma hora e meia, um lugar que diz algo sobre vocês e zero pose empacada.</p>
+            <div class="opener__foot">
+              <span class="folio">02 / 07</span>
+              <a class="wa wa--lg" href="https://wa.me/5551999990000?text=Oi%2C%20Helena!%20Vim%20pelo%20site%20e%20quero%20falar%20sobre%20um%20ensaio." target="_blank" rel="noopener">
+                <svg class="icon icon--fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa" /></svg>
+                Falar no WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature shell" aria-label="Portfólio de ensaios">
+        <div class="feature__intro">
+          <div>
+            <h3>Onde a gente se conhece antes do casamento.</h3>
+          </div>
+          <div class="essay">
+            <p class="lead">Pré-wedding, casal, gestante ou retrato individual: o ensaio marca uma fase da vida que merece calma. Escolho a luz do fim de tarde sempre que dá e conduzo a conversa para que a foto aconteça sozinha.</p>
+            <p>Entrega de <b>40 a 70 imagens</b> tratadas em até 30 dias.</p>
+          </div>
+        </div>
+
+        <div class="plates">
+          <figure class="bleed ar-21 reveal">
+            <img src="assets/ensaio-01.jpg" alt="Casal ri junto durante ensaio ao ar livre em luz dourada." loading="lazy" />
+          </figure>
+          <figure class="sp-4 reveal">
+            <img class="ar-45" src="assets/ensaio-02.jpg" alt="Retrato individual de mulher em luz natural suave." loading="lazy" />
+            <figcaption><b>Retrato</b>Individual, para quem quer marcar uma fase.</figcaption>
+          </figure>
+          <figure class="sp-4 reveal">
+            <img class="ar-45" src="assets/ensaio-03.jpg" alt="Casal abraçado olhando para o horizonte no fim de tarde." loading="lazy" />
+            <figcaption><b>Pré-wedding</b>Ensaio do casal antes do grande dia.</figcaption>
+          </figure>
+          <figure class="sp-4 reveal">
+            <img class="ar-45" src="assets/ensaio-04.jpg" alt="Casal caminha por trilha cercada de vegetação." loading="lazy" />
+            <figcaption><b>Ao ar livre</b>Um lugar que já significa algo para vocês.</figcaption>
+          </figure>
+          <figure class="sp-7 reveal">
+            <img class="ar-32" src="assets/ensaio-05.jpg" alt="Casal em momento espontâneo, rindo, durante ensaio." loading="lazy" />
+          </figure>
+          <figure class="sp-5 cap-side pull reveal">
+            <figcaption><b>Gestante</b>A barriga registrada com a mesma atenção que o casamento, sem nada de brega.</figcaption>
+          </figure>
+          <figure class="sp-12 reveal">
+            <img class="ar-219" src="assets/ensaio-06.jpg" alt="Casal em ensaio ao entardecer com silhueta contra o céu." loading="lazy" />
+          </figure>
+        </div>
+
+        <div class="feature__more">
+          <a class="next-link" href="#eventos">
+            <span>Eventos<small>Aniversário, formatura, corporativo, show</small></span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow" /></svg>
+          </a>
+          <span class="folio" aria-hidden="true">03 / 07</span>
+        </div>
+      </section>
+
+      <!-- ============ 03 · EVENTOS ============ -->
+      <section class="opener opener--top" id="eventos" aria-labelledby="t-eventos">
+        <div class="opener__media">
+          <img class="rack" src="assets/evento-hero.jpg" alt="Grupo de pessoas comemorando junto, braços erguidos." decoding="async" />
+        </div>
+        <div class="shell">
+          <div class="opener__plate">
+            <h2 class="opener__title" id="t-eventos">Eventos</h2>
+            <p class="opener__dek">Cobertura discreta, entrega rápida e aquela foto que vira capa.</p>
+            <div class="opener__foot">
+              <span class="folio">03 / 07</span>
+              <a class="wa wa--lg" href="https://wa.me/5551999990000?text=Oi%2C%20Helena!%20Vim%20pelo%20site%20e%20quero%20falar%20sobre%20um%20evento." target="_blank" rel="noopener">
+                <svg class="icon icon--fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa" /></svg>
+                Falar no WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature shell" aria-label="Portfólio de eventos">
+        <div class="feature__intro">
+          <div>
+            <h3>Em evento, o mérito é não aparecer.</h3>
+          </div>
+          <div class="essay">
+            <p class="lead">Aniversário, formatura, evento corporativo, show. Eu circulo, antecipo o momento e saio com o cartão cheio de gente rindo de verdade, sem interromper a festa para fazer retrato posado.</p>
+            <p>As primeiras fotos chegam em <b>48 horas</b>; a galeria completa em 15 dias.</p>
+          </div>
+        </div>
+
+        <div class="plates">
+          <figure class="sp-8 reveal">
+            <img class="ar-32" src="assets/evento-01.jpg" alt="Pessoas pulando entre confetes durante uma festa." loading="lazy" />
+          </figure>
+          <figure class="sp-4 cap-side pull reveal">
+            <figcaption><b>A virada</b>Meia-noite, confete no ar: a foto que todo mundo vai querer.</figcaption>
+          </figure>
+          <figure class="sp-6 reveal">
+            <img class="ar-32" src="assets/evento-02.jpg" alt="Grupo de pessoas dançando junto em uma celebração." loading="lazy" />
+            <figcaption><b>Pista cheia</b>Formatura da turma, primeira música.</figcaption>
+          </figure>
+          <figure class="sp-6 reveal">
+            <img class="ar-32" src="assets/evento-03.jpg" alt="Pessoas em um palco iluminado por luzes roxas durante um show." loading="lazy" />
+            <figcaption><b>Show</b>Cobertura de palco e plateia na mesma noite.</figcaption>
+          </figure>
+          <figure class="bleed ar-219 reveal">
+            <img src="assets/evento-04.jpg" alt="Grupo reunido em volta de uma fogueira ao anoitecer." loading="lazy" />
+          </figure>
+          <figure class="sp-5 reveal">
+            <img class="ar-45" src="assets/evento-05.jpg" alt="Duas pessoas jogando glitter no ar, congelado no tempo." loading="lazy" />
+            <figcaption><b>Corporativo</b>Confraternização de fim de ano, sem cara de crachá.</figcaption>
+          </figure>
+          <figure class="sp-7 reveal">
+            <img class="ar-32" src="assets/evento-06.jpg" alt="Plateia iluminada por luzes de palco durante apresentação." loading="lazy" />
+            <figcaption><b>Aniversário</b>Os 50 da mãe: tia por tia, registradas.</figcaption>
+          </figure>
+        </div>
+
+        <div class="feature__more">
+          <a class="next-link" href="#estudio">
+            <span>O Estúdio<small>Quem está atrás da câmera</small></span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow" /></svg>
+          </a>
+          <span class="folio" aria-hidden="true">04 / 07</span>
+        </div>
+      </section>
+
+      <!-- ============ depoimentos (plate) ============ -->
+      <section class="plate" aria-label="O que os clientes dizem">
+        <div class="shell">
+          <div class="section-head section-head--nofolio">
+            <h2>As palavras deles.</h2>
+          </div>
+          <div class="quotes quotes--lead">
+            <figure class="quote">
+              <blockquote>A Helena sumiu o dia todo e apareceu com 800 fotos que fizeram a gente chorar. Não tem uma pose forçada em nenhuma.</blockquote>
+              <cite>Marina &amp; Téo · casamento em Gramado</cite>
+            </figure>
+            <figure class="quote">
+              <blockquote>Contratei para o aniversário de 50 da minha mãe e ela captou tia por tia. Virou álbum de família.</blockquote>
+              <cite>Rafael M. · aniversário</cite>
+            </figure>
+            <figure class="quote">
+              <blockquote>Nosso ensaio de gestante tinha tudo para ser brega. Ficou a coisa mais bonita da casa.</blockquote>
+              <cite>Bea &amp; Lucas · ensaio</cite>
+            </figure>
+          </div>
+          <p class="quotes__note">Depoimentos de demonstração. Substituir por relatos reais de clientes.</p>
+        </div>
+      </section>
+
+      <!-- ============ 04 · O ESTÚDIO (plate deep) ============ -->
+      <section class="plate plate--deep" id="estudio" aria-labelledby="t-estudio">
+        <div class="shell">
+          <div class="section-head">
+            <span class="folio">04 / 07</span>
+            <h2 id="t-estudio">O Estúdio</h2>
+          </div>
+          <div class="studio">
+            <figure class="studio__portrait">
+              <img src="assets/retrato-fotografo.jpg" alt="Retrato de Helena Braz segurando a câmera." loading="lazy" />
+              <span class="folio">Helena Braz</span>
+            </figure>
+            <div class="studio__body">
+              <p class="dek">Fotografo há [X] anos e ainda acho que o melhor da profissão é ouvir “é exatamente esse dia”.</p>
+              <div class="essay">
+                <p class="lead">Já cobri mais de [N] casamentos entre o Rio Grande do Sul e destinos fora do estado. Trabalho sozinha nos eventos menores e com uma segunda fotógrafa quando o porte pede; para casamentos acima de 150 convidados, recomendo.</p>
+                <p>Equipamento reserva vai sempre na mochila: duas câmeras, lentes redundantes e cartão de sobra. Você não precisa se preocupar com nada disso. Esse é o meu trabalho.</p>
+              </div>
+              <dl class="studio__facts">
+                <div><dt>Base</dt><dd>Porto Alegre · Serra Gaúcha · destinos</dd></div>
+                <div><dt>Entrega</dt><dd>Galeria online tratada · álbum impresso opcional</dd></div>
+                <div><dt>Equipe</dt><dd>Segunda fotógrafa para casamentos acima de 150 convidados</dd></div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 05 · COMO FUNCIONA (plate) ============ -->
+      <section class="plate" id="processo" aria-labelledby="t-processo">
+        <div class="shell">
+          <div class="section-head">
+            <span class="folio">05 / 07</span>
+            <h2 id="t-processo">Como funciona</h2>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <div>
+                <h3>Conversa</h3>
+                <p>Você chama no WhatsApp, conta a data, o lugar e o clima do evento. Eu respondo com disponibilidade e valores no mesmo dia.</p>
+              </div>
+            </article>
+            <article class="step">
+              <div>
+                <h3>Reserva</h3>
+                <p>A data fica sua com um sinal e um contrato simples. A partir daí a gente alinha roteiro, horários e expectativas.</p>
+              </div>
+            </article>
+            <article class="step">
+              <div>
+                <h3>O dia</h3>
+                <p>Chego antes do combinado. Fotografo os dois lados, os detalhes e a festa inteira, sem pedir que ninguém pare tudo para posar.</p>
+              </div>
+            </article>
+            <article class="step">
+              <div>
+                <h3>Entrega</h3>
+                <p>Galeria online tratada em até 30 dias (48 horas para as primeiras de evento), pronta para baixar e compartilhar. Álbum impresso é opcional.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 06 · PERGUNTAS (paper) ============ -->
+      <section class="faq shell" id="perguntas" aria-labelledby="t-perguntas">
+        <div class="section-head">
+          <span class="folio">06 / 07</span>
+          <h2 id="t-perguntas">Perguntas frequentes</h2>
+        </div>
+        <div class="qa-list">
+          <div class="qa">
+            <button class="qa__q" type="button" aria-expanded="false" id="q1" aria-controls="a1">
+              Vocês atendem fora de Porto Alegre?
+              <span class="sign" aria-hidden="true"></span>
+            </button>
+            <div class="qa__a" role="region" aria-labelledby="q1" id="a1"><div>
+              <p>Sim. Serra Gaúcha sem custo de deslocamento; outros destinos com logística combinada à parte, sempre transparente no orçamento.</p>
+            </div></div>
+          </div>
+          <div class="qa">
+            <button class="qa__q" type="button" aria-expanded="false" id="q2" aria-controls="a2">
+              Quantas fotos eu recebo?
+              <span class="sign" aria-hidden="true"></span>
+            </button>
+            <div class="qa__a" role="region" aria-labelledby="q2" id="a2"><div>
+              <p>Casamento: de 600 a 900 fotos tratadas. Ensaio: de 40 a 70. Evento: conforme a duração, sempre a seleção completa dos bons momentos, sem cobrar por foto avulsa.</p>
+            </div></div>
+          </div>
+          <div class="qa">
+            <button class="qa__q" type="button" aria-expanded="false" id="q3" aria-controls="a3">
+              Em quanto tempo fica pronto?
+              <span class="sign" aria-hidden="true"></span>
+            </button>
+            <div class="qa__a" role="region" aria-labelledby="q3" id="a3"><div>
+              <p>Casamento e ensaio em até 30 dias. Evento: prévia em 48 horas e galeria completa em 15 dias.</p>
+            </div></div>
+          </div>
+          <div class="qa">
+            <button class="qa__q" type="button" aria-expanded="false" id="q4" aria-controls="a4">
+              Dá para ter uma segunda fotógrafa?
+              <span class="sign" aria-hidden="true"></span>
+            </button>
+            <div class="qa__a" role="region" aria-labelledby="q4" id="a4"><div>
+              <p>Dá, e para casamentos com mais de 150 convidados eu recomendo. Entra no orçamento de forma clara.</p>
+            </div></div>
+          </div>
+          <div class="qa">
+            <button class="qa__q" type="button" aria-expanded="false" id="q5" aria-controls="a5">
+              Como funciona o pagamento?
+              <span class="sign" aria-hidden="true"></span>
+            </button>
+            <div class="qa__a" role="region" aria-labelledby="q5" id="a5"><div>
+              <p>Sinal para reservar a data e o restante até uma semana antes do evento. Pix ou cartão, com parcelamento combinado.</p>
+            </div></div>
+          </div>
+          <div class="qa">
+            <button class="qa__q" type="button" aria-expanded="false" id="q6" aria-controls="a6">
+              Vocês fazem filme também?
+              <span class="sign" aria-hidden="true"></span>
+            </button>
+            <div class="qa__a" role="region" aria-labelledby="q6" id="a6"><div>
+              <p>Um filme curto de 3 a 5 minutos entra como opcional no pacote de casamento. Para filmagem completa, indico parceiros de confiança.</p>
+            </div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 07 · CONTATO ============ -->
+      <section class="contato" id="contato" aria-labelledby="t-contato">
+        <div class="shell contato__grid">
+          <div>
+            <div class="section-head" style="margin-bottom:1.5rem">
+              <span class="folio" style="color:var(--on-plate-dim);font-size:.85rem">07 / 07</span>
+            </div>
+            <h2 id="t-contato">Me conta sobre o seu dia.</h2>
+            <p class="contato__lede">Responder no mesmo dia é regra da casa. Se a data estiver livre, a gente já marca uma call.</p>
+            <div class="contato__wa">
+              <a class="wa wa--lg" href="https://wa.me/5551999990000?text=Oi%2C%20Helena!%20Vim%20pelo%20site%20e%20quero%20conversar." target="_blank" rel="noopener">
+                <svg class="icon icon--fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa" /></svg>
+                Falar no WhatsApp
+              </a>
+              <p>Resposta em algumas horas, de segunda a sábado</p>
+            </div>
+            <dl class="contato__details">
+              <dt>Base</dt>
+              <dd>Porto Alegre · Serra Gaúcha · destination</dd>
+              <dt>E-mail</dt>
+              <dd><a href="mailto:oi@helenabraz.com.br">oi@helenabraz.com.br</a></dd>
+              <dt>Instagram</dt>
+              <dd><a href="https://instagram.com/helenabraz.foto" target="_blank" rel="noopener">@helenabraz.foto</a></dd>
+            </dl>
+          </div>
+
+          <form class="form" id="form" data-access-key="SUA-ACCESS-KEY-AQUI" novalidate>
+            <div class="form__row">
+              <div class="field">
+                <label for="f-nome">Nome</label>
+                <input type="text" id="f-nome" name="nome" autocomplete="name" required />
+                <span class="field__err" data-err aria-live="polite"></span>
+              </div>
+              <div class="field">
+                <label for="f-email">E-mail</label>
+                <input type="email" id="f-email" name="email" autocomplete="email" required />
+                <span class="field__err" data-err aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="field">
+                <label for="f-fone">WhatsApp</label>
+                <input type="tel" id="f-fone" name="whatsapp" autocomplete="tel" inputmode="tel" placeholder="(00) 00000-0000" required />
+                <span class="field__err" data-err aria-live="polite"></span>
+              </div>
+              <div class="field">
+                <label for="f-tipo">Tipo de registro</label>
+                <select id="f-tipo" name="tipo" required>
+                  <option value="" selected disabled>Escolha uma opção</option>
+                  <option>Casamento</option>
+                  <option>Ensaio</option>
+                  <option>Evento</option>
+                  <option>Outro</option>
+                </select>
+                <span class="field__err" data-err aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-data">Data aproximada</label>
+              <input type="date" id="f-data" name="data" />
+              <span class="field__err" data-err aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="f-msg">Mensagem</label>
+              <textarea id="f-msg" name="mensagem" rows="3" placeholder="Conta um pouco do lugar, do horário e do clima do evento." required></textarea>
+              <span class="field__err" data-err aria-live="polite"></span>
+            </div>
+            <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true" />
+            <button class="form__submit" type="submit">Enviar mensagem</button>
+            <p class="form__status" data-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <span class="wordmark" style="letter-spacing:.24em">Helena Braz</span>
+            <p>Fotografia de casamento, ensaio e evento.</p>
+          </div>
+          <nav class="footer__nav" aria-label="Rodapé">
+            <a href="#casamentos">Casamentos</a>
+            <a href="#ensaios">Ensaios</a>
+            <a href="#eventos">Eventos</a>
+            <a href="#estudio">Estúdio</a>
+            <a href="#processo">Como funciona</a>
+            <a href="#perguntas">Perguntas</a>
+            <a href="#contato">Contato</a>
+          </nav>
+          <div class="footer__social">
+            <a href="https://instagram.com/helenabraz.foto" target="_blank" rel="noopener" aria-label="Instagram de Helena Braz">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ig" /></svg>
+            </a>
+            <a href="https://wa.me/5551999990000" target="_blank" rel="noopener" aria-label="WhatsApp de Helena Braz">
+              <svg class="icon icon--fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa" /></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span>© <span id="ano"></span> Helena Braz. Página-modelo com dados e imagens de demonstração.</span>
+          <span class="u-label">Imagens: Unsplash · licença livre</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sprite de ícones — traço único e consistente, sem emoji, sem ícone de fonte -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+      <defs>
+        <g id="i-wa">
+          <path d="M12 3a9 9 0 0 0-7.74 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3Zm0 1.7a7.3 7.3 0 0 1 6.2 11.2 7.3 7.3 0 0 1-9 2.7l-.32-.15-2.67.7.71-2.6-.17-.33A7.3 7.3 0 0 1 12 4.7Zm-3.1 3.2c-.15 0-.4.06-.6.28-.2.22-.78.76-.78 1.85 0 1.1.8 2.15.9 2.3.12.15 1.56 2.5 3.87 3.4 1.92.76 2.31.6 2.73.57.42-.04 1.36-.56 1.55-1.1.2-.53.2-1 .14-1.09-.06-.1-.22-.15-.46-.27-.24-.12-1.4-.7-1.62-.77-.22-.08-.38-.12-.53.12-.16.24-.6.77-.74.93-.14.16-.27.18-.5.06-.24-.12-1-.37-1.9-1.18-.7-.63-1.18-1.4-1.32-1.64-.13-.24-.01-.37.1-.49.12-.11.25-.29.37-.43.12-.15.16-.25.24-.41.08-.16.04-.31-.02-.43-.06-.12-.53-1.3-.73-1.77-.19-.46-.38-.4-.53-.4Z"/>
+        </g>
+        <g id="i-ig">
+          <rect x="3.5" y="3.5" width="17" height="17" rx="4.6" />
+          <circle cx="12" cy="12" r="4.1" />
+          <circle cx="17.1" cy="6.9" r="0.6" fill="currentColor" stroke="none" />
+        </g>
+        <g id="i-arrow">
+          <path d="M5 12h14M13 6l6 6-6 6" />
+        </g>
+        <g id="i-down">
+          <path d="M12 5v14M6 13l6 6 6-6" />
+        </g>
+      </defs>
+    </svg>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
